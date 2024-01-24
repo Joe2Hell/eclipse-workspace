@@ -195,3 +195,9 @@ java.io.IOException: Cannot run program "rm": Launching failed
 	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-24 17:10:50.727
+!MESSAGE Indexed 'Area and circumference' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-24 17:11:04.186
+!MESSAGE Indexed 'Largest number between 3' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

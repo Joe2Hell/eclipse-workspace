@@ -1,5 +1,33 @@
-Info: Nothing to build for Area and circumference
-17:11:08 **** Rebuild of configuration Debug for project Largest number between 3 ****
+21:58:33 **** Clean-only build of configuration Debug for project Nested for ****
+rm -rf "Nested for.exe" "src/Nested for.o" "src/Nested for.d" 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Muham/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Muham/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Muham\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\Muham\AppData\Local\GitHubDesktop\bin;C:\Users\Muham\Desktop]
+
+21:58:33 **** Clean-only build of configuration Debug for project Nested for ****
+21:58:34 **** Rebuild of configuration Debug for project Nested for ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\largst number.o" "..\\src\\largst number.c" 
-gcc -o "Largest number between 3" "src\\largst number.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
+gcc -o "Nested for.exe" "src\\Nested for.o" 
+21:58:56 **** Incremental Build of configuration Debug for project Nested for ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
+gcc -o "Nested for.exe" "src\\Nested for.o" 
+Info: Nothing to build for Nested for
+21:59:33 **** Incremental Build of configuration Debug for project Nested for ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
+gcc -o "Nested for.exe" "src\\Nested for.o" 
+21:59:44 **** Incremental Build of configuration Debug for project Nested for ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
+..\src\Nested for.c: In function 'main':
+..\src\Nested for.c:23:8: warning: statement with no effect [-Wunused-value]
+   for(j+i ;j < num; j++)
+       ~^~
+gcc -o "Nested for.exe" "src\\Nested for.o" 
+21:59:56 **** Incremental Build of configuration Debug for project Nested for ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
+gcc -o "Nested for.exe" "src\\Nested for.o" 

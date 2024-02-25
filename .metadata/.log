@@ -2379,3 +2379,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-02-25 20:51:17.762
 !MESSAGE Indexed 'pointer 1st task' (1 sources, 10 headers) in 0.261 sec: 875 declarations; 1,698 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-25 23:59:41.020
+!MESSAGE Indexed 'pointer 2nd task' (1 sources, 10 headers) in 0.09 sec: 875 declarations; 1,698 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

@@ -1,33 +1,1324 @@
-21:58:33 **** Clean-only build of configuration Debug for project Nested for ****
-rm -rf "Nested for.exe" "src/Nested for.o" "src/Nested for.d" 
-Cannot run program "rm": Launching failed
-
-Error: Program "rm" not found in PATH
-PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Users/Muham/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/Muham/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Muham\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\Muham\AppData\Local\GitHubDesktop\bin;C:\Users\Muham\Desktop]
-
-21:58:33 **** Clean-only build of configuration Debug for project Nested for ****
-21:58:34 **** Rebuild of configuration Debug for project Nested for ****
+Info: Nothing to build for pointer 1st task
+20:56:14 **** Incremental Build of configuration Debug for project pointer 1st task ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
-gcc -o "Nested for.exe" "src\\Nested for.o" 
-21:58:56 **** Incremental Build of configuration Debug for project Nested for ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:26:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d ", ptr);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+20:56:52 **** Incremental Build of configuration Debug for project pointer 1st task ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
-gcc -o "Nested for.exe" "src\\Nested for.o" 
-Info: Nothing to build for Nested for
-21:59:33 **** Incremental Build of configuration Debug for project Nested for ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:27:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d ", ptr);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+20:57:02 **** Incremental Build of configuration Debug for project pointer 1st task ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
-gcc -o "Nested for.exe" "src\\Nested for.o" 
-21:59:44 **** Incremental Build of configuration Debug for project Nested for ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+20:57:16 **** Incremental Build of configuration Debug for project pointer 1st task ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
-..\src\Nested for.c: In function 'main':
-..\src\Nested for.c:23:8: warning: statement with no effect [-Wunused-value]
-   for(j+i ;j < num; j++)
-       ~^~
-gcc -o "Nested for.exe" "src\\Nested for.o" 
-21:59:56 **** Incremental Build of configuration Debug for project Nested for ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+20:59:07 **** Incremental Build of configuration Debug for project pointer 1st task ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Nested for.o" "..\\src\\Nested for.c" 
-gcc -o "Nested for.exe" "src\\Nested for.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:25:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:00:03 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:28:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:00:21 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:28:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:00:48 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:28:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:00:56 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:28:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+..\src\pointer 1st task.c:30:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d \n", &op1[i] );
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:01:13 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:28:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+..\src\pointer 1st task.c:30:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d \n", ptr );
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:01:22 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:28:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:02:45 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:02:54 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d \n", ptr );
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:04:48 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d \t", ptr);
+                                          ^
+..\src\pointer 1st task.c:34:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of second array is %d \t", ptr);
+                                           ^
+..\src\pointer 1st task.c:36:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i] + op2[i];
+       ^
+..\src\pointer 1st task.c:38:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The result of the two arrays is %d \t", ptr);
+                                            ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:06:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:36:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i] + op2[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:07:08 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:36:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = (int)op1[i] + (int)op2[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:07:19 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:36:12: error: lvalue required as left operand of assignment
+   (int)ptr = (int)op1[i] + (int)op2[i];
+            ^
+21:07:29 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:36:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i] + op2[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:19:55 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:36:7: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   ptr = op1[i] + op2[i];
+       ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:20:06 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:36:12: error: lvalue required as left operand of assignment
+   (int)ptr = op1[i] + op2[i];
+            ^
+21:30:04 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:45: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("The result of the two arrays  is %p \t", result[i]);
+                                             ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:30:40 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:45: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("The result of the two arrays  is %p \t", result[i]);
+                                             ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:31:10 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:31:39 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+   printf("The address of first array is %d \t", (void*)&op1[i]);
+                                          ^
+..\src\pointer 1st task.c:33:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+   printf("The address of second array is %d \t", (void*)&op2[i]);
+                                           ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:31:54 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:33:15 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c:18:1: error: stray '\330' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+ ^
+..\src\pointer 1st task.c:18:2: error: stray '\270' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+  ^
+..\src\pointer 1st task.c:18:3: error: stray '\330' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+   ^
+..\src\pointer 1st task.c:18:4: error: stray '\270' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+    ^
+21:33:19 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c:18:1: error: stray '\330' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+ ^
+..\src\pointer 1st task.c:18:2: error: stray '\270' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+  ^
+..\src\pointer 1st task.c:18:3: error: stray '\330' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+   ^
+..\src\pointer 1st task.c:18:4: error: stray '\270' in program
+ ظظvoid *collect[3] = {&op1[0],&op2[0],&result[0]};
+    ^
+21:33:53 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:41:13 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:3: warning: dereferencing 'void *' pointer
+   *ptr = *collect[i];
+   ^~~~
+..\src\pointer 1st task.c:34:10: warning: dereferencing 'void *' pointer
+   *ptr = *collect[i];
+          ^~~~~~~~~~~
+..\src\pointer 1st task.c:34:3: error: invalid use of void expression
+   *ptr = *collect[i];
+   ^
+21:41:20 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:4: warning: dereferencing 'void *' pointer
+   **ptr = *collect[i];
+    ^~~~
+..\src\pointer 1st task.c:34:4: error: void value not ignored as it ought to be
+..\src\pointer 1st task.c:34:11: warning: dereferencing 'void *' pointer
+   **ptr = *collect[i];
+           ^~~~~~~~~~~
+21:41:50 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:4: warning: dereferencing 'void *' pointer
+   **ptr = &collect[i];
+    ^~~~
+..\src\pointer 1st task.c:34:4: error: void value not ignored as it ought to be
+21:42:11 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:4: warning: dereferencing 'void *' pointer
+   **ptr = (int)&collect[i];
+    ^~~~
+..\src\pointer 1st task.c:34:4: error: void value not ignored as it ought to be
+21:42:23 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:4: error: invalid type argument of unary '*' (have 'int')
+   **(int)ptr = (int)&collect[i];
+    ^~~~~~~~~
+21:42:36 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:9: warning: dereferencing 'void *' pointer
+   (int)**ptr = (int)&collect[i];
+         ^~~~
+..\src\pointer 1st task.c:34:9: error: void value not ignored as it ought to be
+21:42:39 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:4: warning: dereferencing 'void *' pointer
+   **ptr = (int)&collect[i];
+    ^~~~
+..\src\pointer 1st task.c:34:4: error: void value not ignored as it ought to be
+21:44:49 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:3: error: invalid type argument of unary '*' (have 'int')
+   **ptr = &collect[i];
+   ^~~~~
+21:45:03 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   int **ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:45:30 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   int **ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int ***' [-Wformat=]
+   printf("The address of first array is %d \t", &ptr);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:45:43 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   int **ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+   printf("The address of first array is %d \t", &&ptr);
+                                          ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+..\src\pointer 1st task.c:35:3: error: label 'ptr' used but not defined
+   printf("The address of first array is %d \t", &&ptr);
+   ^~~~~~
+21:47:01 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:4: error: invalid type argument of unary '*' (have 'int')
+    **ptr = &collect[i];
+    ^~~~~
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+   printf("The address of first array is %d \t", &ptr);
+                                          ^
+21:47:50 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   int **ptr = &collect[0];
+               ^
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int ***' [-Wformat=]
+   printf("The address of first array is %d \t", &ptr);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:47:56 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   int **ptr = &collect[2];
+               ^
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int ***' [-Wformat=]
+   printf("The address of first array is %d \t", &ptr);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:48:27 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int ***' [-Wformat=]
+   printf("The address of first array is %d \t", &ptr);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:48:43 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+21:50:48 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:51:01 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:51:10 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:20: error: lvalue required as left operand of assignment
+   (int)*collect[i] = &op1[i];
+                    ^
+21:51:19 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+21:53:49 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+..\src\pointer 1st task.c:35:64: error: expected ')' before ';' token
+   printf("The address of first array is %d \t", (int)collect[i];
+                                                                ^
+..\src\pointer 1st task.c:39:2: error: expected ';' before '}' token
+  }
+  ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+21:54:09 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+..\src\pointer 1st task.c:35:65: error: expected ')' before ';' token
+   printf("The address of first array is %d \t", (int)&collect[i];
+                                                                 ^
+..\src\pointer 1st task.c:39:2: error: expected ';' before '}' token
+  }
+  ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+21:54:20 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:54:27 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:54:46 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:20: error: lvalue required as left operand of assignment
+   (int)*collect[i] = &op1[i];
+                    ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+21:55:02 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:3: error: variable-sized object may not be initialized
+   int *collect[i] = &op1[i];
+   ^~~
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+21:55:10 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:33:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *collect[i] = &op1[i];
+               ^
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:55:27 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:9: warning: unused variable 'ptr' [-Wunused-variable]
+   int **ptr = &collect[i];
+         ^~~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:55:57 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:56:58 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+21:58:31 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:58:36 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d \t", ptr[i]);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+21:58:48 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+21:59:01 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:01:50 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:03:43 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:42: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   printf("The address of first array is %d \t", (int*)ptr[i]);
+                                          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:03:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:05:21 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:05:28 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:05:56 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:06:47 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:07:03 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:08:22 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: error: redefinition of 'ptr'
+         int **ptr = &collect[i];
+               ^~~
+..\src\pointer 1st task.c:30:9: note: previous definition of 'ptr' was here
+   int **ptr = &collect[i];
+         ^~~
+22:08:37 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         **ptr = &collect[i];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:08:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         **ptr = &collect[i];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:09:07 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         **ptr = &collect[i];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:10:03 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         **ptr = &collect[j];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:10:38 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:34:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         **ptr = &collect[j];
+               ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:14:00 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    **ptr = &collect[j];
+          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:14:09 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    **ptr = &collect[i];
+          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:14:31 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    **ptr = &collect[i+1];
+          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:14:46 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    **ptr = &collect[2];
+          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:15:05 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    **ptr = &collect[2];
+          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:16:43 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:10: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    **ptr = &op2[i];
+          ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:16:54 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:19:03 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    int *ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:35:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *ptr = &op2[i];
+         ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:19:42 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    int *ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:35:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *ptr = &collect[i+1];
+         ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:19:56 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    int *ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:35:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *ptr = &collect[i];
+         ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:20:37 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:15: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    int *ptr = &collect[i];
+               ^
+..\src\pointer 1st task.c:35:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *ptr = &collect[i];
+         ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:23:02 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:66: error: invalid type argument of unary '*' (have 'int')
+    printf("The address of first array element is %p \t", (void *)*ptr);
+                                                                  ^~~~
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:67: error: invalid type argument of unary '*' (have 'int')
+    printf("The address of second array element is %p \t", (void *)*ptr);
+                                                                   ^~~~
+22:23:07 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:66: error: invalid type argument of unary '*' (have 'int')
+    printf("The address of first array element is %p \t", (void *)*ptr);
+                                                                  ^~~~
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:67: error: invalid type argument of unary '*' (have 'int')
+    printf("The address of second array element is %p \t", (void *)*ptr);
+                                                                   ^~~~
+22:23:11 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:66: error: invalid type argument of unary '*' (have 'int')
+    printf("The address of first array element is %p \t", (void *)*ptr);
+                                                                  ^~~~
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:67: error: invalid type argument of unary '*' (have 'int')
+    printf("The address of second array element is %p \t", (void *)*ptr);
+                                                                   ^~~~
+22:23:20 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:23:45 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:25:28 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:36:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:39:21: error: invalid operands to binary + (have 'int *' and 'int *')
+    ptr = collect[i] + collect[j];
+          ~~~~~~~~~~ ^ ~~~~~~~~~~
+22:25:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:36:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:39:4: error: invalid type argument of unary '*' (have 'int')
+    *ptr = collect[i] + collect[j];
+    ^~~~
+..\src\pointer 1st task.c:39:22: error: invalid operands to binary + (have 'int *' and 'int *')
+    *ptr = collect[i] + collect[j];
+           ~~~~~~~~~~ ^ ~~~~~~~~~~
+22:26:29 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:36:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:26:47 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:34:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:36:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:38:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:28:42 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[j];
+              ^
+..\src\pointer 1st task.c:32:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:34:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[j];
+        ^
+..\src\pointer 1st task.c:36:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:30:05 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[j];
+              ^
+..\src\pointer 1st task.c:32:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:34:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[j];
+        ^
+..\src\pointer 1st task.c:36:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:30:37 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:32:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:34:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:36:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+22:41:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:32:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:34:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:36:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:42:04 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:32:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:34:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:36:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+..\src\pointer 1st task.c:37:34: warning: operation on 'i' may be undefined [-Wsequence-point]
+    ptr = *collect[i] + *collect[i++];
+                                 ~^~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:45:15 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *collect[j] = &op1[i];
+                ^
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+..\src\pointer 1st task.c:38:34: warning: operation on 'i' may be undefined [-Wsequence-point]
+    ptr = *collect[i] + *collect[i++];
+                                 ~^~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:46:06 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *collect[i] = &op1[j];
+                ^
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+..\src\pointer 1st task.c:38:34: warning: operation on 'i' may be undefined [-Wsequence-point]
+    ptr = *collect[i] + *collect[i++];
+                                 ~^~
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:46:36 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c:18:18: error: expected identifier or '(' before '=' token
+ int *collect[3]; = {&op1[0],&op2[0],&result[0]};
+                  ^
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *collect[i] = &op1[j];
+                ^
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+..\src\pointer 1st task.c:38:34: warning: operation on 'i' may be undefined [-Wsequence-point]
+    ptr = *collect[i] + *collect[i++];
+                                 ~^~
+22:46:37 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c:18:18: error: expected identifier or '(' before '=' token
+ int *collect[3]; = {&op1[0],&op2[0],&result[0]};
+                  ^
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:30:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    *collect[i] = &op1[j];
+                ^
+..\src\pointer 1st task.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    int ptr = &collect[i];
+              ^
+..\src\pointer 1st task.c:33:51: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of first array element is %d \t", (void *)ptr);
+                                                   ^
+..\src\pointer 1st task.c:35:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    ptr = &collect[i];
+        ^
+..\src\pointer 1st task.c:37:52: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+    printf("The address of second array element is %d \t", (void *)ptr);
+                                                    ^
+..\src\pointer 1st task.c:38:34: warning: operation on 'i' may be undefined [-Wsequence-point]
+    ptr = *collect[i] + *collect[i++];
+                                 ~^~
+22:49:49 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c:18:18: error: expected identifier or '(' before '=' token
+ int *collect[3]; = {op1,op2,result};
+                  ^
+22:49:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c:18:18: error: expected identifier or '(' before '=' token
+ int *collect[3]; = {op1,op2,result};
+                  ^
+22:50:01 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:50:14 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:50:31 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:37: error: expected expression before ',' token
+          printf("The total is %d,", , (void *)ptr);
+                                     ^
+22:50:34 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+          printf("The total is %d,", (void *)ptr);
+                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+22:50:54 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+          printf("The total is %d,", (void *)ptr);
+                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:50:59 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+          printf("The total is %d", (void *)ptr);
+                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:51:44 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+          printf("The total is %d", (int *)ptr);
+                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:51:55 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+          printf("The total is %d", (void *)ptr);
+                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:52:07 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:52:22 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:52:29 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:52:40 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:53:51 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:54:06 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:54:21 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:57:07 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:39: error: 'j' undeclared (first use in this function)
+          ptr = *collect[i] + *collect[j];
+                                       ^
+..\src\pointer 1st task.c:35:39: note: each undeclared identifier is reported only once for each function it appears in
+22:57:28 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+              ptr = *collect[i] + *collect[j];
+                  ^
+..\src\pointer 1st task.c:37:39: error: 'j' undeclared (first use in this function)
+          ptr = *collect[i] + *collect[j];
+                                       ^
+..\src\pointer 1st task.c:37:39: note: each undeclared identifier is reported only once for each function it appears in
+22:57:31 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+              ptr = *collect[i] + *collect[j];
+                  ^
+..\src\pointer 1st task.c:37:39: error: 'j' undeclared (first use in this function)
+          ptr = *collect[i] + *collect[j];
+                                       ^
+..\src\pointer 1st task.c:37:39: note: each undeclared identifier is reported only once for each function it appears in
+22:57:36 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+              ptr = *collect[i] + *collect[j];
+                  ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+22:58:32 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:32:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+              ptr = (*collect[j] + i);
+                  ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:02:17 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:02:56 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:03:05 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:37:39: error: 'j' undeclared (first use in this function)
+          ptr = *collect[i] + *collect[j];
+                                       ^
+..\src\pointer 1st task.c:37:39: note: each undeclared identifier is reported only once for each function it appears in
+23:03:07 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:37:39: error: 'j' undeclared (first use in this function)
+          ptr = *collect[i] + *collect[j];
+                                       ^
+..\src\pointer 1st task.c:37:39: note: each undeclared identifier is reported only once for each function it appears in
+23:03:19 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+23:03:48 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+          ptr = *(collect[0] + i) + *(collect[1] + i);
+              ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+23:03:58 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:09:00 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:41:1: error: expected declaration or statement at end of input
+ }
+ ^
+23:09:23 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:10:11 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:10:25 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+Info: Nothing to build for pointer 1st task
+23:11:18 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:41:1: error: expected declaration or statement at end of input
+ }
+ ^
+23:11:22 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:11:42 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:11:54 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:35:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+          ptr = *(collect[0] + i) + *(collect[1] + i);
+              ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:11:59 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:12:05 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+Info: Nothing to build for pointer 1st task
+23:12:16 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:12:28 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:12:54 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:13:34 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:64: warning: format '%d' expects argument of type 'int', but argument 4 has type 'void *' [-Wformat=]
+              printf("The address of array no %d element %d is %d \t",j+1,i, (void *)ptr);
+                                                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
+23:23:32 **** Incremental Build of configuration Debug for project pointer 1st task ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointer 1st task.o" "..\\src\\pointer 1st task.c" 
+..\src\pointer 1st task.c: In function 'main':
+..\src\pointer 1st task.c:31:64: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+              printf("The address of array no %d element %d is %d \t",j+1,i, (int *)ptr);
+                                                                ^
+gcc -o "pointer 1st task.exe" "src\\pointer 1st task.o" 
